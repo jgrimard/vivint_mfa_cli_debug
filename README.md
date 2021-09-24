@@ -1,2 +1,6 @@
 # vivint_mfa_cli_debug
- Command Line interface to retrieve Vivint refresh token
+NodeJS Command Line Interface to retrieve Vivint refresh token
+
+Install with command: `npm install -g vivint_mfa_cli_debug`
+
+Run with command: `vivint_mfa_cli_debug`
