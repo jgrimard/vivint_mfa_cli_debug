@@ -1,6 +1,6 @@
 {
   "name": "vivint_mfa_cli_debug",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Debug retrieving a refresh token from Vivint",
   "license": "ISC",
   "author": "jgrimard",

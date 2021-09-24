@@ -33,7 +33,7 @@ const run = async () => {
     console.error(error);
   }
 
-  //Next is the Auth User Data attempt, this should trigger MFA code to be sent.
+  //Next is the Auth User Data attempt, this should trigger MFA code to be sent via text or email.
   try {
     response = await request({
       method: "GET",
@@ -56,7 +56,7 @@ const run = async () => {
   }
   //if response was error 401, we are going to ask user to type in the MFA code they received.
   if (isMfa) {
-    const code = await askQuestion("Please enter the MFA code you received via sms or email : ");
+    const code = await askQuestion("Please enter the MFA code from your authenticator app or received via sms or email : ");
     try {
       response = await request({
         method: "POST",
