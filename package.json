@@ -1,6 +1,6 @@
 {
   "name": "vivint_mfa_cli_debug",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Debug retrieving a refresh token from Vivint",
   "license": "ISC",
   "author": "jgrimard",
@@ -11,5 +11,9 @@
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9"
   },
-  "bin": "vivint_mfa_cli_debug.js"
+  "bin": "vivint_mfa_cli_debug.js",
+  "homepage": "https://github.com/jgrimard/vivint_mfa_cli_debug#readme",
+  "bugs": "https://github.com/jgrimard/vivint_mfa_cli_debug/issues",
+  "repository": "github:jgrimard/vivint_mfa_cli_debug",
+  
 }
